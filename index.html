@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <article class="our-website-is-designed-specif-parent">
+        <div class="our-website-is-container">
+          <span class="our-website-is-container1">
+            <p class="our-website-is">
+              Our website is designed specifically for farmers and individuals
+              passionate about organic farming, providing a dedicated hub for
+              connecting those in need of skilled labor with those eager to
+              contribute to home-based organic farming.
+            </p>
+            <p class="our-website-is">&nbsp;</p>
+            <p class="our-website-is">
+              Seamless Connection: Farmers looking for reliable assistance in
+              cultivating organic crops can easily connect with individuals
+              interested in lending their expertise through our user-friendly
+              interface.
+            </p>
+            <p class="our-website-is">&nbsp;</p>
+            <p class="our-website-is">
+              Efficient Hiring Process: Recognizing the vital role of skilled
+              labor in farming, our platform streamlines the hiring process.
+            </p>
+            <p class="our-website-is">
+              User-Friendly Interface: The website is designed with user
+              convenience in mind, ensuring a straightforward and intuitive
+              experience for both farmers and individuals looking to engage in
+              organic farming.
+            </p>
+            <p class="our-website-is">&nbsp;</p>
+            <p class="our-website-is">
+              Feedback Mechanism: To foster continuous improvement and maintain
+              open communication, we have incorporated a user-friendly feedback
+              form.
+            </p>
+            <p class="our-website-is">&nbsp;</p>
+            <p class="our-website-is">
+              Community Building: Join us in cultivating a sustainable and
+              thriving agricultural community.
+            </p>
+          </span>
+        </div>
+        <img class="frame-child" alt="" src="./public/vector-1.svg" />
+
+        <div class="about-us-wrapper" data-scroll-to="frameContainer">
+          <div class="about-us">About us</div>
+        </div>
+      </article>
+      <main class="image-parent">
+        <img class="image-icon" alt="" src="./public/image@2x.png" />
+
+        <div class="slide-animation-textdefault">
+          <div class="discover-the-benefits">
+            Discover the Benefits of Organic Gardening for a Healthier Lifestyle
+          </div>
+          <div class="organic-gardening-offers">
+            Organic gardening offers numerous advantages, from providing fresh
+            and nutritious produce to reducing exposure to harmful chemicals.
+          </div>
+          <div class="freshness">Freshness</div>
+          <div class="enjoy-the-unparalleled">
+            Enjoy the unparalleled freshness of homegrown organic fruits,
+            vegetables, and herbs.
+          </div>
+          <div class="contribute-to-a">
+            Contribute to a sustainable future by reducing your carbon footprint
+            through organic gardening.
+          </div>
+          <div class="sustainability">Sustainability</div>
+          <div class="expert-guidance-community">
+            Expert Guidance, Community Support
+          </div>
+          <div class="connect-with-organic">
+            Connect with organic gardening experts and join a supportive
+            community to enhance your gardening skills and knowledge.
+          </div>
+          <div class="resources-for-gardening">
+            Resources for Gardening Success
+          </div>
+          <div class="access-a-wide">
+            Access a wide range of resources, including articles, videos, and
+            tutorials, to help you succeed in your organic gardening journey.
+          </div>
+          <div class="join-a-vibrant">
+            Join a vibrant community of like-minded individuals who are
+            passionate about organic living and share valuable insights and
+            experiences.
+          </div>
+          <div class="organic-living-community">Organic Living Community</div>
+        </div>
+      </main>
+      <article class="welcome-to-teamxorg-your-gatew-parent">
+        <div
+          class="welcome-to-teamxorg-container"
+          data-scroll-to="welcomeToTeamXorg"
+        >
+          <span class="our-website-is-container1">
+            <p class="our-website-is">Welcome to TeamXorg</p>
+            <p class="our-website-is">
+              Your Gateway to Organic Living at Home!
+            </p>
+          </span>
+        </div>
+        <div class="say-goodbye-to">
+          Say goodbye to chemically treated veggies. Join our community and
+          cultivate an organic haven. Join our community and cultivate an
+          organic haven.
+        </div>
+      </article>
+      <nav class="frame-parent">
+        <div class="teamxorg-wrapper">
+          <div class="about-us">TeamXOrg</div>
+        </div>
+        <button class="sign-in-button">
+          <div class="sign-in">Sign in</div>
+        </button>
+        <button class="sign-up-button">
+          <div class="sign-up">Sign up</div>
+        </button>
+        <div class="home-button-parent">
+          <button class="home-button" id="homeButton">
+            <div class="home">Home</div>
+          </button>
+          <button class="home-wrapper" id="frameButton">
+            <div class="home">About Us</div>
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <script>
+      var homeButton = document.getElementById("homeButton");
+      if (homeButton) {
+        homeButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='welcomeToTeamXorg']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var frameButton = document.getElementById("Button");
+      if (frameButton) {
+        frameButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='frameContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

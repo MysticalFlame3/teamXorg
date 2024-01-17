@@ -1,0 +1,182 @@
+.title1,
+.welcome-back1 {
+  position: relative;
+  line-height: 100%;
+}
+.welcome-back1 {
+  display: none;
+}
+.title1 {
+  font-size: var(--heading-size);
+  font-weight: 600;
+  color: var(--foreground-high);
+}
+.welcome-back-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.email1 {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.email-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.context2 {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+}
+.iconeye2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.iconeye-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frame-parent2,
+.input-text-container,
+.input-text2 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.input-text2 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  border: 3px solid var(--outline-primary);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-8xs);
+}
+.frame-parent2,
+.input-text-container {
+  align-items: flex-start;
+}
+.input-text-container {
+  height: 48px;
+  flex-direction: row;
+  font-size: var(--body-medium-regular-size);
+  color: var(--foreground-low);
+}
+.frame-parent2 {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.forgot1 {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: var(--foreground-primary);
+  text-align: right;
+}
+.iconeye3 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.frame-parent1,
+.input-text3,
+.input1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.input-text3 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--outline-default);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-8xs);
+}
+.frame-parent1,
+.input1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input1 {
+  font-size: var(--body-medium-regular-size);
+  color: var(--foreground-low);
+}
+.frame-parent1 {
+  gap: var(--gap-5xl);
+  color: var(--foreground-default);
+}
+.login-now1 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.button1 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+}
+.dont-have-an1,
+.sign-up2 {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.sign-up2 {
+  color: var(--foreground-primary);
+}
+.dont-have-an-account-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--foreground-low);
+}
+.button-group,
+.form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-group {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--foreground-oncolor);
+}
+.form1 {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 40px 40px 60px rgba(228, 231, 234, 0.74);
+  width: 100%;
+  justify-content: center;
+  padding: var(--padding-29xl) var(--padding-53xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--body-large-regular-size);
+  color: var(--text-secondary);
+  font-family: var(--body-large-regular);
+}

@@ -1,0 +1,364 @@
+.our-website-is {
+  margin: 0;
+}
+.our-website-is-container1 {
+  width: 100%;
+}
+.our-website-is-container {
+  position: absolute;
+  top: 104px;
+  left: calc(50% - 534.5px);
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  width: 1069px;
+}
+.frame-child {
+  position: absolute;
+  top: 68px;
+  left: calc(50% - 140.5px);
+  max-height: 100%;
+  width: 280px;
+}
+.about-us {
+  position: relative;
+  line-height: 100%;
+  font-weight: 300;
+}
+.about-us-wrapper {
+  position: absolute;
+  width: calc(100% - 825px);
+  top: 0;
+  right: 413px;
+  left: 412px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-29xl);
+}
+.our-website-is-designed-specif-parent {
+  position: absolute;
+  width: calc(100% - 136px);
+  top: 1180px;
+  right: 68px;
+  left: 68px;
+  height: 744px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.image-icon {
+  position: absolute;
+  top: calc(50% - 330px);
+  left: calc(50% + 12px);
+  width: 537px;
+  height: 660px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.discover-the-benefits,
+.organic-gardening-offers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-29xl);
+  line-height: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 459px;
+}
+.organic-gardening-offers {
+  top: 206px;
+  font-size: var(--body-large-regular-size);
+  font-weight: 300;
+  width: 521px;
+}
+.enjoy-the-unparalleled,
+.freshness {
+  position: absolute;
+  top: 275px;
+  left: 0;
+  line-height: 100%;
+}
+.enjoy-the-unparalleled {
+  top: 309px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 224px;
+}
+.contribute-to-a,
+.sustainability {
+  position: absolute;
+  left: 260px;
+  line-height: 100%;
+}
+.contribute-to-a {
+  top: 309px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 246px;
+}
+.sustainability {
+  top: 275px;
+}
+.connect-with-organic,
+.expert-guidance-community {
+  position: absolute;
+  left: 539px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+}
+.expert-guidance-community {
+  top: 0;
+  font-size: var(--font-size-29xl);
+  font-weight: 500;
+  width: 459px;
+}
+.connect-with-organic {
+  top: 118px;
+  font-size: var(--body-large-regular-size);
+  width: 521px;
+}
+.resources-for-gardening {
+  position: absolute;
+  top: 180px;
+  left: 539px;
+  line-height: 100%;
+}
+.access-a-wide {
+  top: 214px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 447px;
+}
+.access-a-wide,
+.join-a-vibrant,
+.organic-living-community {
+  position: absolute;
+  left: 539px;
+  line-height: 100%;
+}
+.join-a-vibrant {
+  top: 335px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 421px;
+}
+.organic-living-community {
+  top: 304px;
+}
+.slide-animation-textdefault {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 521px;
+  height: 660px;
+  overflow: hidden;
+}
+.image-parent {
+  position: absolute;
+  width: calc(100% - 107px);
+  top: 390px;
+  right: 66px;
+  left: 41px;
+  height: 660px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.say-goodbye-to,
+.welcome-to-teamxorg-container {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  line-height: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 718px;
+}
+.say-goodbye-to {
+  top: 153px;
+  font-size: 15px;
+  font-weight: 300;
+  width: 483px;
+  height: 36px;
+}
+.welcome-to-teamxorg-your-gatew-parent {
+  position: absolute;
+  top: 144px;
+  left: 38px;
+  width: 721px;
+  height: 189px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.teamxorg-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.sign-in {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 100%;
+  font-family: var(--font-roboto);
+  color: var(--color-black);
+  text-align: left;
+}
+.sign-in-button {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 22px;
+  right: 178px;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.sign-in:hover {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 100%;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.sign-in-button:hover{
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-3xs);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 22px;
+  right: 178px;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.sign-up {
+  font-size: var(--font-size-13xl);
+}
+
+.sign-up {
+  position: relative;
+  line-height: 100%;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.sign-up-button {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-3xs);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 22px;
+  right: 30px;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.sign-up:hover{
+  position: relative;
+  line-height: 100%;
+  font-family: var(--font-roboto);
+  color: var(--color-black);
+  text-align: left;
+}
+.sign-up-button:hover{
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 22px;
+  right: 30px;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  line-height: 100%;
+  font-family: var(--font-roboto);
+  color: var(--color-black);
+  text-align: left;
+}
+.home-button,
+.home-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 65px;
+  height: 24px;
+}
+.home-wrapper {
+  width: 101px;
+}
+.home-button-parent {
+  position: absolute;
+  top: 40px;
+  left: 329px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+}
+.frame-parent {
+  margin: 0;
+  position: absolute;
+  width: calc(100% + 6px);
+  top: 0;
+  right: -3px;
+  left: -3px;
+  background-color: #34a853;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 87px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.desktop-1 {
+  position: relative;
+  background-color: #52ce73;
+  width: 100%;
+  height: 2238px;
+  overflow: hidden;
+}
